@@ -1,0 +1,6 @@
+{
+    "g_lr": {"_type":"uniform", "_value": [0.000005, 0.000015]},
+    "d_lr":{"_type":"uniform","_value":[0.000005, 0.000015]},
+    "lambda_L1":{"_type":"quniform","_value":[10, 100, 10]},
+    "netD":{"_type":"choice","_value":["basic", "n_layers", "pixel"]}
+}
